@@ -1,0 +1,27 @@
+ input[type="text"]{
+    width: 10%;
+    padding: 2px 20px;
+    margin: 5px 0;
+    display: block;
+    border: 1px solid black;
+    border-radius: 2px;
+    }
+select{
+    width: 10%;
+    padding: 2px 20px;
+    margin: 5px 0;
+    display: block;
+    border: 1px solid black;
+    border-radius: 2px;
+    text-align: left;
+    }
+input[type=checkbox]{
+        display: block;
+        margin: 5px 0;
+    
+    }
+input[type=number]{
+        display: block;
+        margin: 5px 0;
+
+    }
