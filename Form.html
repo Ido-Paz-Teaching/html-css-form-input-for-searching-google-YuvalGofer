@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en usa"> 
+    <head>
+        <title>
+            Form
+        </title>
+        <link rel="stylesheet" href="StyleSheet.css">
+        <style>
+            label {font-weight: bolder;}
+        </style>
+    </head>
+    
+    <body>
+        <form action="https://google.co.il/search" target="_blank" >
+
+        <label>
+            Search text:
+        </label>
+        <input type="text" name="q"  placeholder="Search text here..." required>
+    
+        <label>
+            That was updated in:
+        </label>
+        <select id="Update" name="as_qdr" aria-placeholder="Choose.." required>
+            <option value="a">Any time</option>
+            <option value="d">The previous 24 hours</option>
+            <option value="w">The previous seven days</option>
+            <option value="m">The previous month</option>
+            <option value="y">Past year</option>
+        </select>
+    
+        <label>
+            Search only pages writen in hebrew:
+        </label>
+        <input type="checkbox" id="lr" name="lr" value="lang_iw" aria-checked="true">
+    
+        <label>
+            Number of results:
+        </label>
+        <input type="number" name="num" min="1" max="25" placeholder="Enter nomber" required>
+    
+        <input type="submit" style="border-radius: 12px; color: rgb(42, 133, 30);"  value="Ask google">
+    
+
+        </form>
+    </body>
+</html>
